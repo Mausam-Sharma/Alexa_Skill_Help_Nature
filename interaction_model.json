@@ -1,0 +1,456 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "help nature",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetIdea",
+                    "slots": [
+                        {
+                            "name": "strt_single",
+                            "type": "strt_single"
+                        },
+                        {
+                            "name": "strt_plural",
+                            "type": "strt_plural"
+                        },
+                        {
+                            "name": "single",
+                            "type": "single"
+                        }
+                    ],
+                    "samples": [
+                        "helping nature",
+                        "help nature",
+                        "{single}",
+                        "{strt_plural}",
+                        "{strt_single}",
+                        "how",
+                        "how to save",
+                        "how to do it",
+                        "how to do",
+                        "tell me {strt_single}",
+                        "tell me {strt_plural}",
+                        "tell me {single}",
+                        "tell {single}",
+                        "tell {strt_single}",
+                        "tell {strt_plural}",
+                        "give me {strt_single}",
+                        "give me {strt_plural}",
+                        "give me {single}",
+                        "give {single}",
+                        "give {strt_single}",
+                        "give {strt_plural}",
+                        "give me some information",
+                        "give me some {single} information",
+                        "give me some info",
+                        "give me any info",
+                        "give me info",
+                        "give info",
+                        "tell me some information",
+                        "tell me some {single} information",
+                        "tell me some info",
+                        "tell me any info",
+                        "tell info",
+                        "get me some information",
+                        "get me some {single} information",
+                        "get me some info",
+                        "get me any info",
+                        "get info",
+                        "tell me something",
+                        "give me something",
+                        "get me something",
+                        "tell me",
+                        "give me",
+                        "get me anything",
+                        "anything",
+                        "provide anything",
+                        "provide some information",
+                        "provide some info",
+                        "provide something",
+                        "provide {strt_single}",
+                        "provide {single}",
+                        "provide {strt_plural}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetTipSpecific",
+                    "slots": [
+                        {
+                            "name": "thing",
+                            "type": "thing"
+                        }
+                    ],
+                    "samples": [
+                        "{thing}",
+                        "give me idea on saving {thing}",
+                        "give me ideas on saving {thing}",
+                        "give me tip on saving {thing}",
+                        "give me tips on saving {thing}",
+                        "get me idea on saving {thing}",
+                        "get me ideas on saving {thing}",
+                        "get me tip on saving {thing}",
+                        "get me tips on saving {thing}",
+                        "how to save {thing}",
+                        "way to save {thing}",
+                        "ways to save {thing}",
+                        "how save {thing}",
+                        "save {thing}",
+                        "tell me idea on saving {thing}",
+                        "tell me ideas on saving {thing}",
+                        "tell me tip on saving {thing}",
+                        "tell me tips on saving {thing}",
+                        "give info on {thing}",
+                        "tell info on {thing}",
+                        "provide info on {thing}",
+                        "idea on {thing}",
+                        "ideas on {thing}",
+                        "tip on {thing}",
+                        "tips on {thing}",
+                        "info on {thing}",
+                        "information on {thing}",
+                        "idea on saving {thing}",
+                        "ideas on saving {thing}",
+                        "tip on saving {thing}",
+                        "tips on saving {thing}",
+                        "info on saving {thing}",
+                        "information on saving {thing}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "strt_plural",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "ways"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ideas"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tips"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "points"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "facts"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "some ways"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "some ideas"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "some tips"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "some points"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "some facts"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "any ways"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "any ideas"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "any tips"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "any points"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "any facts"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "strt_single",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "a way"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "an idea"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "a tip"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "a point"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "an info"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "some info"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "an information"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "some information"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "a fact"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "the way"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "the idea"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "the tip"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "the point"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "the info"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "any info"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "the information"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "any information"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "the fact"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "any way"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "any idea"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "any tip"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "any point"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "any fact"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "thing",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "planet earth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "planet"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "earth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "globe"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ecology"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "world"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "atmosphere"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "habitat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "surroundings"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "environment"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nature",
+                                "synonyms": [
+                                    "environment"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "single",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "way"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "idea"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tip"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "point"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "info"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "information"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fact"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
